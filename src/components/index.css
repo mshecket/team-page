@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: 'brannboll';
+  src: url('../fonts/brannboll.woff2') format('woff2'),
+         url('../fonts/brannboll.woff') format('font-woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+main {
+  align-content: center;
+}
+
+.cardCollection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
