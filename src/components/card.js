@@ -14,16 +14,17 @@ const Card = props => (
           style={{ borderColor: props.borderColor }}
         ></img>
 
-        {/* The "0" after the homeworld makes a swash in this font */}
+        {/* The "1" after the team name makes a swash in this font */}
         <p className="team" style={{ color: props.teamColor }}>
-          {props.team && props.team + "0"}
+          {props.team && props.team + "1"}
         </p>
 
         <div className="logo">
+          <div className="position">{props.position}</div>
           <img src={props.logoImageUrl} alt="logo" />
         </div>
         <p className="name">{props.name}</p>
-        <div className="cardboard"/>
+        <div className="cardboard" />
       </FrontSide>
       <BackSide className="cardBack">
         <div className="stats">
@@ -37,7 +38,7 @@ const Card = props => (
                 )
             )}
         </div>
-        <div className="cardboard"/>
+        <div className="cardboard" />
       </BackSide>
     </Flippy>
   </div>
