@@ -9,15 +9,19 @@ import team from "../../data/team"
 console.log(team)
 
 const IndexPage = () => (
-  <main>
-    <h1>Our team</h1>
-    <p>Meet our great team!</p>
-    <div className="cardCollection">
-      {team.map(member => (
-        <Card {...member} />
-      ))}
-    </div>
-  </main>
+  <div>
+    <header>
+      <h1>Our team</h1>
+      <p>Meet our great team!</p>
+    </header>
+        <main>
+      <div className="cardCollection">
+        {team.map(member => (
+          <Card {...member} />
+        ))}
+      </div>
+    </main>
+  </div>
 )
 
 export default IndexPage

@@ -10,7 +10,8 @@ const team = [
     borderColor: "#000",
     stats: {
       "Date of birth": "June 28, 1971",
-      Weight: "240 lbs.",
+      "Twitter": "@elonmusk",
+      "Favorite color": "blue"
     },
   },
   {
@@ -24,7 +25,8 @@ const team = [
     borderColor: "#000",
     stats: {
       "Alma mater": "University of Pennsylvania, Harvard University",
-      Weight: "240 lbs.",
+      "Twitter": "@zachkirkhorn",
+      "Favorite color": "red"
     },
   },
   {
@@ -36,8 +38,8 @@ const team = [
     teamColor: "#e82127",
     borderColor: "#000",
     stats: {
-      Height: "5'9\"",
-      Weight: "240 lbs.",
+      "Favorite color": "purple",
+      "Twitter": "@jeromeguillen"
     },
   },
   {
@@ -50,8 +52,8 @@ const team = [
     teamColor: "#e82127",
     borderColor: "#000",
     stats: {
-      Height: "5'9\"",
-      Weight: "290 lbs.",
+      "Favorite color": "green",
+      "Hobbies": "Skiing, skateboarding, tennis"
     },
   },
 ]
